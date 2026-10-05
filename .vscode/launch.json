@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot - GovSchemeAssistantApplication",
+      "request": "launch",
+      "mainClass": "com.govscheme.assistant.GovSchemeAssistantApplication",
+      "projectName": "gov-scheme-assistant-backend"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Frontend in Chrome",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/frontend/src"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Frontend in Edge",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/frontend/src"
+    }
+  ]
+}
